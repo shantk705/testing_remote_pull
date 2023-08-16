@@ -1,0 +1,34 @@
+{
+  "name": "daemon-ete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --watch src --exec ./node_modules/.bin/ts-node src/index.ts --ignore src/output",
+    "typeorm": "typeorm-ts-node-commonjs -d src/dbdrivers/data-source.ts",
+    "migration:show": "npm run typeorm migration:show",
+    "migration:create": "node scripts/migration-create.js",
+    "migration:run": "npm run typeorm migration:run",
+    "migration:revert": "npm run typeorm migration:revert"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^5.0.8",
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.1.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.3"
+  }
+}
