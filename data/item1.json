@@ -1,0 +1,103 @@
+{
+    "data": {
+      "id": 16638007,
+      "project_id": 375964,
+      "folder_uuid": "e5fbc3e9-c973-4015-b916-35513abf0776",
+      "structure_uuid": "0a2b0a7e-a580-438f-bcd4-8c1eec8eb9c4",
+      "template_id": 3088477,
+      "position": 0,
+      "name": "item3",
+      "status_id": 2450647,
+      "archived_by": null,
+      "archived_at": null,
+      "next_due_at": null,
+      "completed_at": null,
+      "assigned_users": [],
+      "assigned_user_ids": [],
+      "current_workflow_assigned_user_ids": [],
+      "assignee_count": 0,
+      "updated_at": "2023-07-07 07:58:48",
+      "created_at": "2023-07-06 19:42:01",
+      "display_archived_at": null,
+      "display_next_due_at": null,
+      "display_completed_at": null,
+      "display_updated_at": {
+        "utc": "2023-07-07T07:58:48+00:00",
+        "iso": "2023-07-07T08:58:48+01:00",
+        "relative": "1 minute ago",
+        "datetime": "Jul 07, 2023 at 8:58 AM",
+        "date": "Jul 07, 2023",
+        "time": "8:58 AM"
+      },
+      "display_created_at": {
+        "utc": "2023-07-06T19:42:01+00:00",
+        "iso": "2023-07-06T20:42:01+01:00",
+        "relative": "12 hours ago",
+        "datetime": "Jul 06, 2023 at 8:42 PM",
+        "date": "Jul 06, 2023",
+        "time": "8:42 PM"
+      },
+      "content": {
+        "885c49a3-961c-41ee-9fa0-483ef8f466b9": "<p>YOYOYO</p><table><tr><td><p>name</p></td><td><p>id</p></td><td><p>last</p></td></tr><tr><td><p>loli</p></td><td><p>2</p></td><td><p>pipo</p></td></tr></table><blockquote>DAMNN</blockquote><figure><img src=\"https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?s=74e8e670fafbae9f84a09f763a65347d\" data-instance-id=\"e291f021-b4d3-41da-9d23-5316a0f853f1\"/></figure><p><a href=\"www.example.com\"  target=\"_blank\" rel=\"noopener noreferrer\"><strong><em><s><u>text</u></s></em></strong></a></p>",
+        "660af1ec-f4f0-426e-9fe2-9160a9db8525": [
+          {
+            "id": "88eb3e40-e05c-20c4-3ce7-e6b81180b75e",
+            "label": "My current content workflow is in need of improvement"
+          }
+        ],
+        "6bb4e5ad-6109-c9ed-0de0-3eb7d56a281f": {
+          "e9986cb0-a6c6-f63b-944a-d2667d1753ed": "<p></p><table><tr><td><p>col1</p></td><td><p>col2</p></td><td><p>col3</p></td></tr><tr><td><p>test</p></td><td><p>test</p></td><td><p>test</p></td></tr></table><p></p>",
+          "855d36c3-c82f-d67a-6789-2c16b3485ced": [
+            {
+              "file_id": "NzU3NjI/1fnoybDxlxG93yRb",
+              "filename": "deck.jpg",
+              "url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?s=74e8e670fafbae9f84a09f763a65347d",
+              "download_url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?dl=deck.jpg&s=d8d8c92bcf4eca1b4faac64bbe3c02aa",
+              "optimised_image_url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?auto=format%2Ccompress&s=8cf2d6ba05b2d486b2d4344ede2e8471",
+              "mime_type": "image/jpeg",
+              "size": "11561",
+              "alt_text": null
+            }
+          ],
+          "93f2b50a-a389-1022-d771-786b4affba2f": [
+            {
+              "id": "cde17184-9e06-dedb-5898-5086501711c4",
+              "label": "choice2"
+            },
+            {
+              "id": "a02c3e5c-a58f-0b90-f58c-a7af3b8be35a",
+              "label": "choice1"
+            }
+          ],
+          "532166a1-b72b-1309-ea00-01584465058d": [
+            {
+              "id": "efc2eae5-c93a-5de1-918c-06af93e66ba3",
+              "label": "radi1"
+            }
+          ]
+        },
+        "82da8e8e-31b9-4fa7-925b-edf16e82f13e": [
+          {
+            "file_id": "NzU3NjI/1fnoybDxlxG93yRb",
+            "filename": "deck.jpg",
+            "url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?s=74e8e670fafbae9f84a09f763a65347d",
+            "download_url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?dl=deck.jpg&s=d8d8c92bcf4eca1b4faac64bbe3c02aa",
+            "optimised_image_url": "https://assets.gathercontent.com/NzU3NjI/1fnoybDxlxG93yRb?auto=format%2Ccompress&s=8cf2d6ba05b2d486b2d4344ede2e8471",
+            "mime_type": "image/jpeg",
+            "size": "11561",
+            "alt_text": null
+          }
+        ],
+        "06daad3d-79cf-4fef-9ee0-437c97d08408": [
+          {
+            "id": "394f6e4a-36bc-5fbd-e2b5-95b1199c6336",
+            "label": "Add a label for this option"
+          }
+        ],
+        "ab42f332-04f4-46c8-bd39-af33022022db": [
+          "<p>01 FIELD !</p>",
+          "<p>02 FIELD !</p>"
+        ]
+      }
+    }
+  }

@@ -1,0 +1,197 @@
+{
+    "data": {
+      "id": 3088477,
+      "name": "Example template",
+      "number_of_items_using": 2,
+      "structure_uuid": "0a2b0a7e-a580-438f-bcd4-8c1eec8eb9c4",
+      "project_id": 375964,
+      "updated_at": "2023-07-07 19:42:27",
+      "updated_by": 753633
+    },
+    "related": {
+      "structure": {
+        "uuid": "0a2b0a7e-a580-438f-bcd4-8c1eec8eb9c4",
+        "groups": [
+          {
+            "uuid": "34c4f81b-1c97-48be-95d5-b2a95032a34f",
+            "name": "I'm a taboule",
+            "fields": [
+              {
+                "uuid": "40c06e05-9017-423d-8f36-bbf495ab0233",
+                "label": "👋 Welcome to the content editor Updated!",
+                "instructions": "<p>WHT IS The content editor is where writers and content creators feel at home. In this example item, we&#039;ve already added some fields and content below to get you started.</p>",
+                "field_type": "guidelines",
+                "metadata": []
+              },
+              {
+                "uuid": "885c49a3-961c-41ee-9fa0-483ef8f466b9",
+                "label": "This is a text field - write in me ✍️",
+                "instructions": "This is a field instruction. Use instructions to help authors provide accurate content, for example, advice on tone of voice.",
+                "field_type": "text",
+                "metadata": {
+                  "is_plain": false,
+                  "validation": null,
+                  "repeatable": {
+                    "limit": 2,
+                    "isRepeatable": false,
+                    "limitEnabled": false
+                  }
+                }
+              },
+              {
+                "uuid": "660af1ec-f4f0-426e-9fe2-9160a9db8525",
+                "label": "Checkbox field (tick all that apply)",
+                "instructions": "Use checkbox fields when you want authors to be able to select multiple options from a set list.",
+                "field_type": "choice_checkbox",
+                "metadata": {
+                  "choice_fields": {
+                    "options": [
+                      {
+                        "optionId": "88eb3e40-e05c-20c4-3ce7-e6b81180b75e",
+                        "label": "My current content workflow is in need of improvement"
+                      },
+                      {
+                        "optionId": "931b9fb8-2386-7c6b-abd8-5c8d57821940",
+                        "label": "GatherContent is giving me good vibes"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "uuid": "1fddafdb-e1e5-4fe8-a68b-750dd5b94d83",
+                "label": "Templates and workflows",
+                "instructions": "<p>You can save structures as templates to save huge amounts of time, and everything gets passed through a workflow to give you the confidence in the quality of your content 👆</p>",
+                "field_type": "guidelines",
+                "metadata": []
+              },
+              {
+                "uuid": "6bb4e5ad-6109-c9ed-0de0-3eb7d56a281f",
+                "label": "component1",
+                "instructions": "",
+                "field_type": "component",
+                "component": {
+                  "uuid": "ae47e52d-313d-40de-a642-115aa6ce2f07",
+                  "fields": [
+                    {
+                      "uuid": "e9986cb0-a6c6-f63b-944a-d2667d1753ed",
+                      "label": "component text field",
+                      "instructions": "",
+                      "field_type": "text",
+                      "metadata": {
+                        "is_plain": false,
+                        "validation": null
+                      }
+                    },
+                    {
+                      "uuid": "855d36c3-c82f-d67a-6789-2c16b3485ced",
+                      "label": "component asset field",
+                      "instructions": "",
+                      "field_type": "attachment",
+                      "metadata": []
+                    },
+                    {
+                      "uuid": "93f2b50a-a389-1022-d771-786b4affba2f",
+                      "label": "component checkbox",
+                      "instructions": "",
+                      "field_type": "choice_checkbox",
+                      "metadata": {
+                        "choice_fields": {
+                          "options": [
+                            {
+                              "optionId": "a02c3e5c-a58f-0b90-f58c-a7af3b8be35a",
+                              "label": "choice1"
+                            },
+                            {
+                              "optionId": "cde17184-9e06-dedb-5898-5086501711c4",
+                              "label": "choice2"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "uuid": "532166a1-b72b-1309-ea00-01584465058d",
+                      "label": "component radio",
+                      "instructions": "",
+                      "field_type": "choice_radio",
+                      "metadata": {
+                        "choice_fields": {
+                          "options": [
+                            {
+                              "optionId": "efc2eae5-c93a-5de1-918c-06af93e66ba3",
+                              "label": "radi1"
+                            },
+                            {
+                              "optionId": "f249fb2e-0058-8d74-0b6a-23914d080c35",
+                              "label": "radi2"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                "metadata": []
+              }
+            ]
+          },
+          {
+            "uuid": "c72a75c9-26b0-4b40-b397-6aa05a128e77",
+            "name": "I'm another tab",
+            "fields": [
+              {
+                "uuid": "572d7099-4ead-49b8-ba89-877753dac2a3",
+                "label": "Why multiple tabs?",
+                "instructions": "<p>A common use for tabs is separating content out into sections. For example, for web-related content, you might find it more manageable to separate metadata and SEO data into a different tab from the main content.</p><p><a href=\"https://help.gathercontent.com/en/articles/118124-using-tabs\" target=\"_blank\" rel=\"noopener noreferrer\">View the help article on tabs ↗</a></p>",
+                "field_type": "guidelines",
+                "metadata": []
+              },
+              {
+                "uuid": "82da8e8e-31b9-4fa7-925b-edf16e82f13e",
+                "label": "This is an asset field - upload some files or images ",
+                "instructions": "",
+                "field_type": "attachment",
+                "metadata": []
+              },
+              {
+                "uuid": "06daad3d-79cf-4fef-9ee0-437c97d08408",
+                "label": "This is a radio button field - it can be nice for metadata ",
+                "instructions": "",
+                "field_type": "choice_radio",
+                "metadata": {
+                  "choice_fields": {
+                    "options": [
+                      {
+                        "optionId": "394f6e4a-36bc-5fbd-e2b5-95b1199c6336",
+                        "label": "Add a label for this option"
+                      },
+                      {
+                        "optionId": "183672f4-d2d1-2146-f63b-a33d43b0a0a0",
+                        "label": "Add a label for this option"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "uuid": "ab42f332-04f4-46c8-bd39-af33022022db",
+                "label": "This is a repeatable field",
+                "instructions": "",
+                "field_type": "text",
+                "metadata": {
+                  "is_plain": false,
+                  "validation": null,
+                  "repeatable": {
+                    "limit": 4,
+                    "isRepeatable": true,
+                    "limitEnabled": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

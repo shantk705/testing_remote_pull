@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "id": 3088477,
+        "name": "Example template",
+        "number_of_items_using": 2,
+        "structure_uuid": "0a2b0a7e-a580-438f-bcd4-8c1eec8eb9c4",
+        "project_id": 375964,
+        "updated_at": "2023-07-06 19:42:27",
+        "updated_by": 753633
+      },
+      {
+        "id": 3088478,
+        "name": "Blog article (example template)",
+        "number_of_items_using": 1,
+        "structure_uuid": "1ca70717-7764-4a1f-b00f-50ddd65bd79a",
+        "project_id": 375964,
+        "updated_at": "2023-07-06 18:15:10",
+        "updated_by": 753633
+      },
+      {
+        "id": 3088482,
+        "name": "Facebook post (example template)",
+        "number_of_items_using": 0,
+        "structure_uuid": "f253615e-15af-40b5-9c1e-a12effc34486",
+        "project_id": 375964,
+        "updated_at": "2023-07-06 13:31:05",
+        "updated_by": 753633
+      }
+    ],
+    "pagination": {
+      "total": 6,
+      "count": 6,
+      "per_page": 100,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": {}
+    }
+  }
